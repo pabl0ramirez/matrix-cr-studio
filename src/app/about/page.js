@@ -39,7 +39,7 @@ export default function About() {
             <div className="p-2 border border-green-900 bg-green-900/10"><div className="opacity-50">CORE:</div><div className="font-bold">PYTHON / JS</div></div>
             <div className="p-2 border border-green-900 bg-green-900/10"><div className="opacity-50">INFRA:</div><div className="font-bold">DOCKER / AZURE</div></div>
             <div className="p-2 border border-green-900 bg-green-900/10"><div className="opacity-50">AI:</div><div className="font-bold">LANGCHAIN / RAG</div></div>
-            <div className="p-2 border border-green-900 bg-green-900/10"><div className="opacity-50">LOC:</div><div className="font-bold">COSTA RICA</div></div>
+            <div className="p-2 border border-green-900 bg-green-900/10"><div className="opacity-50">LOC:</div><div className="font-bold">COSTA RICA / USA / LATAM / REMOTE</div></div>
         </div>
 
         {/* TIMELINE */}
