@@ -23,7 +23,7 @@ export default function About() {
       <div className="absolute inset-0 pointer-events-none z-0 bg-green-900/10 opacity-20"></div>
 
       <div className="z-10 w-full max-w-4xl mx-auto">
-        {/* FIXED HEADER FOR MOBILE */}
+        {/* HEADER (Maintains Mobile Fix) */}
         <header className="mb-8 border-b border-[#0F0] pb-4 flex flex-col md:flex-row md:justify-between md:items-end gap-4">
           <div>
             <h1 className="text-2xl md:text-4xl font-bold mb-1">BOOT_SEQUENCE</h1>
@@ -34,7 +34,7 @@ export default function About() {
           </Link>
         </header>
 
-        {/* Skills Header */}
+        {/* SKILLS HEADER */}
         <div className="mb-12 grid grid-cols-2 gap-2 text-[10px] md:text-sm border-b border-[#0F0] border-dashed pb-8">
             <div className="p-2 border border-green-900 bg-green-900/10"><div className="opacity-50">CORE:</div><div className="font-bold">PYTHON / JS</div></div>
             <div className="p-2 border border-green-900 bg-green-900/10"><div className="opacity-50">INFRA:</div><div className="font-bold">DOCKER / AZURE</div></div>
@@ -59,7 +59,7 @@ export default function About() {
           ))}
         </div>
 
-        {/* EDUCATION */}
+        {/* EDUCATION (With Glow Fix) */}
         <div className="mb-16">
           <h2 className="text-xl font-bold mb-6 border-l-4 border-[#0F0] pl-4">INSTALLED_MODULES</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -68,7 +68,8 @@ export default function About() {
                 <div>
                   <div className="flex justify-between items-center mb-2">
                     <span className="text-[10px] text-green-500 border border-green-900 px-1">{edu.id}</span>
-                    <span className="text-xs font-bold">{edu.year}</span>
+                    {/* GLOW EFFECT ADDED HERE */}
+                    <span className={`text-xs font-bold ${edu.year.includes('LOADING') ? 'animate-pulse text-[#0F0] drop-shadow-[0_0_8px_rgba(0,255,0,0.8)]' : ''}`}>{edu.year}</span>
                   </div>
                   <div className="font-bold text-sm text-white">{edu.name}</div>
                   <div className="text-xs text-green-400 mb-2">{edu.institution}</div>
