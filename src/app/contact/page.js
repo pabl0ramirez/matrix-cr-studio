@@ -39,7 +39,7 @@ export default function Contact() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <a href="https://www.linkedin.com/in/pablo-ramirez-7357a2143/" target="_blank" rel="noopener noreferrer" className="block">
+            <a href="https://www.linkedin.com/in/pablo-ramirez-764929240/" target="_blank" rel="noopener noreferrer" className="block">
               <div className="border border-[#0F0] p-4 hover:bg-[#0F0] hover:text-black transition-all text-center group">
                 <div className="text-xs opacity-50 group-hover:text-black mb-1">NETWORK: LINKEDIN</div>
                 <div className="font-bold text-lg">&gt; CONNECT_NODE</div>
