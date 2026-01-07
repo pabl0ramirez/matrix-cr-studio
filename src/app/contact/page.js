@@ -45,7 +45,7 @@ export default function Contact() {
                 <div className="font-bold text-lg">&gt; CONNECT_NODE</div>
               </div>
             </a>
-            <a href="#" className="https://github.com/pabl0ramirez">
+            <a href="#" className="https://github.com/pabl0ramirez" target="_blank" rel="noopener noreferrer" className="block">
               <div className="border border-[#0F0] p-4 hover:bg-[#0F0] hover:text-black transition-all text-center group">
                 <div className="text-xs opacity-50 group-hover:text-black mb-1">REPO: GITHUB</div>
                 <div className="font-bold text-lg">&gt; ACCESS_CODE</div>
